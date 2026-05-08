@@ -1,5 +1,4 @@
 import { Client, Presence, register, User } from "discord-rpc";
-import { app } from "electron";
 
 import { appDependencies, trayManager } from "../index";
 
