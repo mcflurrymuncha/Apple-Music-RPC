@@ -37,3 +37,9 @@ jobs:
                   GH_TOKEN: ${{ secrets.github_token }}
                   ELECTRON: true
                   USE_HARD_LINKS: false
+
+            - name: Upload build artifacts
+              uses: actions/upload-artifact@v3
+              with:
+                  name: AppleRPC-Windows
+                  path: app/win/normal/
