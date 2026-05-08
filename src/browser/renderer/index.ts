@@ -1,7 +1,7 @@
 import { Modal } from "./modal.js";
 import { i18n as i18nClass } from "./i18n.js";
 
-import { updateTheme, openURL, newNote } from "./utils.js";
+import { updateTheme, newNote } from "./utils.js";
 
 import { init as initAPI } from "./api.js";
 import { init as initLastFM } from "./lastFM.js";
