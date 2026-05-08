@@ -39,7 +39,7 @@ jobs:
                   USE_HARD_LINKS: false
 
             - name: Upload build artifacts
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v4
               with:
                   name: AppleRPC-Windows
                   path: app/win/normal/
